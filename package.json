@@ -1,0 +1,36 @@
+{
+  "name": "module-8-parsel",
+  "version": "1.0.0",
+  "description": "NPM Basics",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "main": "app.js",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel src/index.html",
+    "customstart": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "custom-script": "echo \"it is custom-script\" ",
+    "script": "echo \"it is script\" ",
+    "prescript": "echo \"it is 'PRE' script\" ",
+    "postscript": "echo \"it is 'POST' script\" ",
+    "all": "npm run custom-script && npm run script"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BilousPM/module-8-parsel.git"
+  },
+  "keywords": [],
+  "author": "Petro Bilous",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BilousPM/module-8-parsel/issues"
+  },
+  "homepage": "https://github.com/BilousPM/module-8-parsel#readme",
+  "dependencies": {
+    "joi": "^17.13.0",
+    "shortid": "^2.2.16"
+  },
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}
